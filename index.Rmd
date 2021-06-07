@@ -1,0 +1,397 @@
+---
+title: "Webinaire QO"
+author: "David Beauchesne"
+date: "2021/06/08"
+output:
+  xaringan::moon_reader:
+    css: [rd.css, rd-font.css, default, "hygge"]
+    lib_dir: assets
+    seal: false
+    nature:
+      highlightStyle: dracula
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+---
+
+
+
+
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+cl <- '#68908b'
+rfa <- function(...) icons::fontawesome(...)
+gh <- function() icons::icon_style(rfa("github"), fill = cl)
+rp <- function() icons::icon_style(rfa("r-project"), fill = cl)
+db <- function() icons::icon_style(rfa("database"), fill = cl)
+mp <- function() icons::icon_style(rfa("globe-americas"), fill = cl)
+en <- function() icons::icon_style(rfa("envelope"), fill = cl)
+
+
+```
+
+class: title-slide, middle
+
+
+# Les stresseurs environnementaux du Système du Saint-Laurent
+
+
+<center><img src="figures/exposure.png" width="60%"></img></center>
+
+
+#### **Characterizing exposure to and sharing knowledge of drivers of environmental change in the st. Lawrence system in canada**
+
+#### Beauchesne D, Daigle R, Vissault S, Gravel D, Bastien A, Bélanger S, Bernatchez P, Blais M, Bourdages H, Chion C, Galbraith P, Halpern B, Lavoie C, McKindsey C, Mucci A, Pineault S, Starr M, Ste-Marie A, Archambault P
+
+<br>
+
+#### Webinaire Québec Océan
+
+<span class="br2"></span>
+
+#### 2021-06-08
+
+
+
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- Stresseurs environnementaux-->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+---
+
+class: inverse, center, middle
+
+# Système du Saint-Laurent
+
+<html><div style='float:left'></div><hr color='#ffdd55' style="margin-top:-30px" size=1px width=720px></html>
+
+<h2 style="color:#ffdd55;"><b>Stresseurs environnementaux</b></h2>
+<h2>Un processus collaboratif</h2>
+<h2>Et maintenant?</h2>
+
+---
+
+# Système du Saint-Laurent
+
+<span class="br2"></span>
+
+.pull-left[
+- Estuaire et golfe
+- Communautés écologiques diversifiées et productives
+- Continuum écologique avec le bassin des Grands Lacs
+  - \> de 45 millions de Nord Américains
+- Crucial à l'économie canadienne
+]
+
+.pull-right[
+<center><img src="figures/stl.png" width="100%"></img></center>
+]
+
+---
+
+# Système du Saint-Laurent
+
+## Stresseurs environnementaux
+
+<span class="br2"></span>
+
+<center><img src="figures/intro.png" width="100%"></img></center>
+
+.references[
+  Duarte et al. 2014; Boonstra et al. 2015; FAO 2017; IPCC 2019
+]
+
+--
+
+**Objectif**: Caractériser la distribution et l'intensité des stresseurs environnementaux dans le Système du Saint-Laurent
+
+---
+
+# Système du Saint-Laurent
+
+## Stresseurs environnementaux
+
+.pull-left[
+- Climat (6)
+- Terrestre (5)
+- Pêcheries (5)
+- Navigation (2)
+]
+
+.pull-right[
+<center><img src="figures/stressors.png" width="90%"></img></center>
+]
+
+.references[
+.font90[Halpern et al. 2015; DFO 2016; Statistics Canada 2017; Galbraith et al. 2018; Blais et al. 2019; Earth observation group 2019; Starr et Chassé 2019]
+]
+
+
+---
+
+# Système du Saint-Laurent
+
+## Exposition cumulée
+
+<span class="br2"></span>
+
+<center><img src="figures/CumulativeExposure.jpg" width="85%"></img></center>
+
+.references[Beauchesne et al. 2020]
+
+
+---
+
+# Système du Saint-Laurent
+
+## Profils d'exposition cumulée
+
+<span class="br2"></span>
+
+<center><img src="figures/cluster.jpg" width="84%"></img></center>
+
+.references[Beauchesne et al. 2020]
+
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- Processus  collaboratif -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+---
+
+class: inverse, center, middle
+
+# Système du Saint-Laurent
+
+<html><div style='float:left'></div><hr color='#ffdd55' style="margin-top:-30px" size=1px width=720px></html>
+
+<h2>Stresseurs environnementaux</h2>
+<h2 style="color:#ffdd55;"><b>Un processus collaboratif</b></h2>
+<h2>Et maintenant?</h2>
+
+
+---
+
+# Un processus collaboratif
+
+<span class="br2"></span>
+
+.pull-left[
+## Experts
+
+.font90[
+- [`r en()`](mailto:david.beauchesne@hotmail.com) David Beauchesne
+- [`r en()`](mailto:philippe.archambault@bio.ulaval.ca) Philippe Archambault
+- [`r en()`](mailto:dominique.gravel@usherbrooke.ca) Dominique Gravel
+- [`r en()`](mailto:BastienA@ogsl.ca) Andréane Bastien
+- [`r en()`](mailto:simon_belanger@uqar.ca) Simon Bélanger
+- [`r en()`](mailto:Pascal_Bernatchez@uqar.ca) Pascal Bernatchez
+- [`r en()`](mailto:Hugo.Bourdages@dfo-mpo.gc.ca) Hugo Bourdages
+- [`r en()`](mailto:clementchion@gmail.com) Clément Chion
+- [`r en()`](mailto:daigleremi@gmail.com) Rémi M. Daigle
+- [`r en()`](mailto:Peter.Galbraith@dfo-mpo.gc.ca) Peter S. Galbraith
+- [`r en()`](mailto:halpern@nceas.ucsb.edu) Benjamin S. Halpern
+- [`r en()`](mailto:Chris.Mckindsey@dfo-mpo.gc.ca) Christopher W. McKindsey
+- [`r en()`](mailto:alfonso.mucci@mcgill.ca) Alfonso Mucci
+- [`r en()`](mailto:Simon.Pineault@environnement.gouv.qc.ca) Simon Pineault
+- [`r en()`](mailto:Michel.Starr@dfo-mpo.gc.ca) Michel Starr
+- [`r en()`](mailto:SteMarieA@ogsl.ca) Anne-Sophie Ste-Marie
+- [`r en()`](mailto:steve.vissault@usherbrooke.ca) Steve Vissault
+]
+]
+
+.pull-right[
+## Partenaires
+
+<span class="br2"></span>
+
+<div class="wrapper">
+<div class="logo2">
+<div id="benthos">
+    <img src="img/logos/Logo_Benthos.png" alt="">
+</div>
+<div id="ogsl">
+    <img src="img/logos/logo-ogsl-fr.png" alt="">
+</div>
+<div id="ielab">
+    <img src="img/logos/ielab.jpg" alt="">
+</div>
+</div>
+</div>
+
+<h7>Académique</h7>
+
+<div class="wrapper">
+<div class="logo">
+<div id="ismer">
+    <img src="img/logos/logo_uqar_ismer.png" alt="">
+</div>
+<div id="laval">
+    <img src="img/logos/logo-universite-laval-couleur-transparent.png" alt="">
+</div>
+<div id="uds">
+    <img src="img/logos/UdeS.png" alt="">
+</div>
+</div>
+</div>
+
+<h7>Gouvernemental</h7>
+
+<div class="wrapper">
+<div class="logo">
+<div id="mpo">
+    <img src="img/logos/mpo2.png" alt="">
+</div>
+<div id="melcc">
+    <img src="img/logos/mddelcc.png" alt="">
+</div>
+<div id="crsng">
+    <img src="img/logos/CRSNG-color.png" alt="">
+</div>
+<div id="fqrnt">
+    <img src="img/logos/frqnt.png" alt="">
+</div>
+</div>
+</div>
+
+<h7>Regroupements de recherche</h7>
+
+<div class="wrapper">
+<div class="logo">
+  <div id="takuvik">
+      <img src="img/logos/takuvik.jpg" alt="">
+  </div>
+  <div id="chone">
+      <img src="img/logos/CHONe+logo-Horzontial-RGB-300DPI.jpg" alt="">
+  </div>
+  <div id="qcocean">
+      <img src="img/logos/logo-QO_png.png" alt="">
+  </div>
+  <div id="notregolf">
+      <img src="img/logos/Notre_Golfe.png" alt="">
+  </div>
+  <div id="csbq">
+      <img src="img/logos/SCBQ_logo2.png" alt="">
+  </div>
+  <div id="nceas">
+      <img src="img/logos/NCEAS.png" alt="">
+  </div>
+</div>
+</div>
+
+<h7>Privé</h7>
+
+<div class="wrapper">
+<div class="logo">
+  <div id="inrest">
+      <img src="img/logos/INREST.png" alt="">
+  </div>
+  <div id="port7i">
+      <img src="img/logos/port7i.png" alt="">
+  </div>
+</div>
+</div>
+
+]
+---
+
+# Un processus collaboratif
+
+## *eDrivers* &nbsp;&nbsp; [`r gh()`](https://github.com/eDrivers) [`r rp()`](https://github.com/eDrivers/eDrivers) [`r db()`](https://github.com/eDrivers/eDriversWorkflows) [`r mp()`](https://david-beauchesne.shinyapps.io/edriversapp/)
+
+<span class="br2"></span>
+
+<a href="https://david-beauchesne.shinyapps.io/edriversapp/">
+  <center><img src="figures/eDrivers.png" width="100%"></img></center>
+</a>
+
+
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- Et maintenant? -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+---
+
+class: inverse, center, middle
+
+# Système du Saint-Laurent
+
+<html><div style='float:left'></div><hr color='#ffdd55' style="margin-top:-30px" size=1px width=720px></html>
+
+<h2>Stresseurs environnementaux</h2>
+<h2>Un processus collaboratif</h2>
+<h2 style="color:#ffdd55;"><b>Et maintenant?</b></h2>
+
+---
+
+# Et maintenant?
+
+.pull-left2[
+- **Effets cumulatifs**
+]
+
+.pull-right2[
+<br/>
+
+<center><img src="figures/cumul.png" width="100%"></img></center>
+]
+
+.references[Beauchesne et al. en préparation]
+
+---
+
+# Et maintenant?
+
+.pull-left2[
+- **Effets cumulatifs**
+
+- ***eDrivers*** **& OGSL**
+
+]
+
+
+.pull-right2[
+<br/>
+<center><img src="img/triangle/triangle_fr3.png" width="100%"></img></center>
+]
+
+---
+
+# Et maintenant?
+
+.pull-left2[
+- **Effets cumulatifs**
+
+- ***eDrivers*** **& OGSL**
+
+- **Zone Atlantique**
+]
+
+.pull-right2[
+<center><img src="figures/zone_atlantique.png" width="85%"></img></center>
+]
+
+
+
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- Thank you -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+<!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
+---
+
+
+class: inverse, center, middle
+
+# Merci !
+
+<html><div style='float:left'></div><hr color='#ffdd55' style="margin-top:-30px" size=1px width=720px></html>
