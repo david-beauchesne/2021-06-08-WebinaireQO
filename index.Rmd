@@ -25,8 +25,6 @@ rp <- function() icons::icon_style(rfa("r-project"), fill = cl)
 db <- function() icons::icon_style(rfa("database"), fill = cl)
 mp <- function() icons::icon_style(rfa("globe-americas"), fill = cl)
 en <- function() icons::icon_style(rfa("envelope"), fill = cl)
-
-
 ```
 
 class: title-slide, middle
@@ -305,9 +303,7 @@ class: inverse, center, middle
 
 <span class="br2"></span>
 
-<a href="https://david-beauchesne.shinyapps.io/edriversapp/">
-  <center><img src="figures/eDrivers.png" width="100%"></img></center>
-</a>
+<center><img src="figures/eDrivers.png" width="100%"></img></center>
 
 
 <!-- =~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~=~-~= -->
