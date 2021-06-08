@@ -111,15 +111,15 @@ class: inverse, center, middle
 
 ## Stresseurs environnementaux
 
-.pull-left[
-- Climat (6)
-- Terrestre (5)
+.pull-left2[
+- Climat (7)
+- Terrestre (7)
 - Pêcheries (5)
-- Navigation (2)
+- Navigation (3)
 ]
 
-.pull-right[
-<center><img src="figures/stressors.png" width="90%"></img></center>
+.pull-right2[
+<center><img src="figures/drivers.jpg" width="85%"></img></center>
 ]
 
 .references[
